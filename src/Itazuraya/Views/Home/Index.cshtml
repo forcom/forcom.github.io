@@ -1,0 +1,10 @@
+﻿@inject Itazuraya.Services.MainService Main
+@{
+    ViewBag.Title = "Main Page";
+}
+
+<h2>Main Page</h2>
+
+@Component.Invoke("Main", 1)
+
+@await Main.GetResult()
