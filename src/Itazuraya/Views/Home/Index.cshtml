@@ -1,7 +1,18 @@
 ﻿@{
     ViewBag.Title = "Main Page";
 }
-
-<h2>Main Page</h2>
-
-@Component.Invoke("Main", 1)
+<div class="reveal default center">
+    <div class="slides">
+        <section>
+            <section>
+                @Component.Invoke("Main", "Default")
+            </section>
+            <section>
+                <h1>two-one</h1>
+            </section>
+            <section>
+                <h1>two-two</h1>
+            </section>
+        </section>
+    </div>
+</div>

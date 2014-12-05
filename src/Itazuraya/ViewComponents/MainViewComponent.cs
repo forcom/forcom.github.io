@@ -4,9 +4,9 @@ namespace Itazuraya.ViewComponents
 {
     public class MainViewComponent : ViewComponent
     {
-        public IViewComponentResult Invoke(int maxPriority)
+        public IViewComponentResult Invoke(string title)
         {
-            return View();
+            return View(title);
         }
     }
 }

@@ -6,7 +6,8 @@
         "jquery": "~1.10.2",
         "jquery-validation": "~1.11.1",
         "jquery-validation-unobtrusive": "~3.2.2",
-        "requirejs": "~2.1.15"
+        "requirejs": "~2.1.15",
+        "reveal.js": "^2.6.2"
     },
     "exportsOverride": {
         "bootstrap": {
